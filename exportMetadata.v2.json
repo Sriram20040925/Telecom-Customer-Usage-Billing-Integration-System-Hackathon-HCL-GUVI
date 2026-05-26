@@ -1,0 +1,329 @@
+{
+  "name" : "job-1779753838689",
+  "sourceOrgId" : "ic8E1pyEsoKkPbCRsSYY0b",
+  "sourceOrgName" : "HCLGUVI",
+  "exportedObjects" : [ {
+    "objectGuid" : "5Crf84jjYunbCAyBnOyPgT",
+    "objectName" : "Final_report_top_consumers",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000Y"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP", "e94OCj6qGgvltbJLbijYMW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "8EKbV53lfXRjuo51n9b02u",
+    "objectName" : "Billing_Validation",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000W"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP", "e94OCj6qGgvltbJLbijYMW", "kKsZTFUMqolk4NUoASEnMj" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "2CNDW0bEQIzeDsvkCFpvMx",
+    "objectName" : "customers_incremental_load",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000Z"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "e94OCj6qGgvltbJLbijYMW",
+    "objectName" : "FF_STAGE",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B0B000000000008"
+      },
+      "objectRefs" : [ "3yOm0Ujugyyev4v5dLLKYW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "1K4feM7Secaf5w7yTHCY66",
+    "objectName" : "m_Generate_Usage_Alert",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000X"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP", "e94OCj6qGgvltbJLbijYMW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0w1omhmaVCWcAFtdGUTx6A",
+    "objectName" : "m_Load_Usage_Record",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000V"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP", "6ohVkskam0fgkiny9McWaG", "e94OCj6qGgvltbJLbijYMW", "kKsZTFUMqolk4NUoASEnMj" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "3yOm0Ujugyyev4v5dLLKYW",
+    "objectName" : "DESKTOP-GF21OJV",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "57oiWA71MaIdnWRbQwjdyj",
+    "objectName" : "m_Load_Customer_Master",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B1700000000000U"
+      },
+      "objectRefs" : [ "goQLfd4IJmBcklEm5luWEP", "6ohVkskam0fgkiny9McWaG", "e94OCj6qGgvltbJLbijYMW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "fbsimOj7Gmaj9qlDsopzGB",
+    "objectName" : "FINAL_CONSUMERS_REPORT",
+    "objectType" : "MTT",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B0Z00000000000M"
+      },
+      "objectRefs" : [ "3yOm0Ujugyyev4v5dLLKYW", "5Crf84jjYunbCAyBnOyPgT", "goQLfd4IJmBcklEm5luWEP", "e94OCj6qGgvltbJLbijYMW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "a8JVZLGJqmleD8FJ21UF8V",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "6ohVkskam0fgkiny9McWaG",
+    "objectName" : "ORACLE_STAGE",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B0B000000000005"
+      },
+      "objectRefs" : [ "3yOm0Ujugyyev4v5dLLKYW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "goQLfd4IJmBcklEm5luWEP",
+    "objectName" : "orcsrc_warehouse",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B0B000000000006"
+      },
+      "objectRefs" : [ "3yOm0Ujugyyev4v5dLLKYW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "kKsZTFUMqolk4NUoASEnMj",
+    "objectName" : "FF_SOURCE",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DN4B0B000000000003"
+      },
+      "objectRefs" : [ "3yOm0Ujugyyev4v5dLLKYW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "check",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}

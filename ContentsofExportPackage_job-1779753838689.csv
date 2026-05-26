@@ -1,0 +1,14 @@
+objectPath,objectName,objectType,id
+/Explore/Default,Final_report_top_consumers,DTEMPLATE,5Crf84jjYunbCAyBnOyPgT
+/Explore/Default,Billing_Validation,DTEMPLATE,8EKbV53lfXRjuo51n9b02u
+/Explore/Default,customers_incremental_load,DTEMPLATE,2CNDW0bEQIzeDsvkCFpvMx
+/SYS,FF_STAGE,Connection,e94OCj6qGgvltbJLbijYMW
+/Explore/Default,m_Generate_Usage_Alert,DTEMPLATE,1K4feM7Secaf5w7yTHCY66
+/Explore/Default,m_Load_Usage_Record,DTEMPLATE,0w1omhmaVCWcAFtdGUTx6A
+/SYS,DESKTOP-GF21OJV,AgentGroup,3yOm0Ujugyyev4v5dLLKYW
+/Explore/Default,m_Load_Customer_Master,DTEMPLATE,57oiWA71MaIdnWRbQwjdyj
+/Explore/Default,FINAL_CONSUMERS_REPORT,MTT,fbsimOj7Gmaj9qlDsopzGB
+/Explore,Default,Project,a8JVZLGJqmleD8FJ21UF8V
+/SYS,ORACLE_STAGE,Connection,6ohVkskam0fgkiny9McWaG
+/SYS,orcsrc_warehouse,Connection,goQLfd4IJmBcklEm5luWEP
+/SYS,FF_SOURCE,Connection,kKsZTFUMqolk4NUoASEnMj
